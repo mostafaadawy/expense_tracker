@@ -44,3 +44,12 @@ class Expense {
 - context is widget of meta data informatiuon passed through the widgets and overdf all UI 
 - for builder function it expoects to return widget
 - `EditTextController widget` is used to save input or titles field so for many fields we need many controllers and we have to dispose or terminate the value of this controllers when close the `overlay modal`
+- check the code
+```sh
+Navigator.pop(context);
+```
+- used to exist the overlay widget
+- check the code
+```sh
+
+```

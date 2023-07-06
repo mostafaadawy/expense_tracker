@@ -38,3 +38,4 @@ class Expense {
 ```
 - where ` : id = uuid.v4();` is called initailizer which is dart feature in class when add after constructor it initilize the code required
 - ListView can replace the map where it allows item builder that can loop over list by its index 
+- expand widget solve problem of overlapping and fits the elements widgets inside

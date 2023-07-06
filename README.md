@@ -40,3 +40,6 @@ class Expense {
 - where ` : id = uuid.v4();` is called initailizer which is dart feature in class when add after constructor it initilize the code required
 - ListView can replace the map where it allows item builder that can loop over list by its index 
 - expand widget solve problem of overlapping and fits the elements widgets inside
+- we can use `showmodalbotomsheet` and other show methods from flutter to show modal and calender and so on from autocomplete we can checkn these show function
+- - context is widget of meta data informatiuon passed through the widgets and overdf all UI 
+- for builder function it expoects to return widget

@@ -15,3 +15,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+# Objectives
+- Making Apps more interactive and easier
+- Using Modals Dialogs and more
+- Basic User input handling
+- Configuring and using Apps

@@ -41,5 +41,6 @@ class Expense {
 - ListView can replace the map where it allows item builder that can loop over list by its index 
 - expand widget solve problem of overlapping and fits the elements widgets inside
 - we can use `showmodalbotomsheet` and other show methods from flutter to show modal and calender and so on from autocomplete we can checkn these show function
-- - context is widget of meta data informatiuon passed through the widgets and overdf all UI 
+- context is widget of meta data informatiuon passed through the widgets and overdf all UI 
 - for builder function it expoects to return widget
+- `EditTextController widget` is used to save input or titles field so for many fields we need many controllers and we have to dispose or terminate the value of this controllers when close the `overlay modal`

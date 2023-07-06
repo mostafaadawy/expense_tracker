@@ -24,6 +24,7 @@ samples, guidance on mobile development, and a full API reference.
 # Install
 - 'flutter pub add name ofpackage' here we need to add uuid so `flutter pub add uuid` if `google_fonts` just replace it with uuid 
 - uuid package generates ids
+- install intl package for localization and date formate where here we target date format `flutter pub add intl`
 
 # Note 
 - check next code 

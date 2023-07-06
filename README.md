@@ -20,3 +20,20 @@ samples, guidance on mobile development, and a full API reference.
 - Using Modals Dialogs and more
 - Basic User input handling
 - Configuring and using Apps
+
+# Install
+- 'flutter pub add name ofpackage' here we need to add uuid so `flutter pub add uuid` if `google_fonts` just replace it with uuid 
+- uuid package generates ids
+
+# Note 
+- check next code 
+```sh
+class Expense {
+  Expense({
+    required this.title,
+    required this.amount,
+    required this.date,
+    required this.category,
+  }) : id = uuid.v4();
+```
+- where ` : id = uuid.v4();` is called initailizer which is dart feature in class when add after constructor it initilize the code required

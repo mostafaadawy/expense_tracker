@@ -51,5 +51,26 @@ Navigator.pop(context);
 - used to exist the overlay widget
 - check the code
 ```sh
-
+DropdownButton(
+                value: _selectedCategory,
+                items: Category.values
+                    .map(
+                      (category) => DropdownMenuItem(
+                        value: category,
+                        child: Text(
+                          category.name.toUpperCase(),
+                        ),
+                      ),
+                    )
+                    .toList(),
+                onChanged: (value) {
+                  if (value == null) {
+                    return;
+                  }
+                  setState(() {
+                    _selectedCategory = value;
+                  });
+                },
+              ),
 ```
+- Category.values returns all enum words and then tolist convert to array so map can work

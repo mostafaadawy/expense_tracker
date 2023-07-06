@@ -74,3 +74,10 @@ DropdownButton(
               ),
 ```
 - Category.values returns all enum words and then tolist convert to array so map can work
+- compiningh condition with and or
+- validating user input and showing an error dialog
+- saving new expenses
+- creating full screen modal
+- using the dismissable widget for dismissing list items
+- showing and managing snackbar
+- 

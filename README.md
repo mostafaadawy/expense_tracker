@@ -80,4 +80,11 @@ DropdownButton(
 - creating full screen modal
 - using the dismissable widget for dismissing list items
 - showing and managing snackbar
-- 
+  
+# Building Responsive and Adaptive UI
+- by useing media query` MediaQuery.of(context)`.size.width or height or other issues and
+- using `layout builder` that builds upon function and constrains through context
+- using both previous features we can build condationaly widgets that fits landscap and portarits and same way can fits new dimenstions
+- using safearea to safe platform reserved areas such as front camera 
+- using padding and expand and scrol widgets to make it reponsive
+- using `Platform.isIOS` and `cubernates material` adjust modals and its widgets related to ios for example work conditional 
